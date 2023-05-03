@@ -1,20 +1,15 @@
 @import "./utils/variables";
-@import "./utils/functions";
+// @import "./utils/functions";
 @import "./utils/mixins";
-@import "./utils/extensions";
-@import "./utils/keyframes";
+// @import "./utils/extensions";
+// @import "./utils/keyframes";
 
 @import "./base/base";
-@import "./base/typography";
 
-@import "./components/buttons";
-@import "./components/animations";
 
 @import "./layout/header";
-@import "./layout/nav";
-@import "./layout/container";
-@import "./layout/form";
-@import "./layout/footer";
-@import "./layout/menu";
+@import "./layout/homeContent";
+@import "./layout/homeFunctions";
+@import "./layout/homeRestaurants";
 
-@import "./pages/homepage";
+// @import "./layout/footer";
