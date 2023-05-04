@@ -1,0 +1,27 @@
+.footer{
+    background: #353535;
+    padding: 20px;
+    font-weight: 500;
+    &__logo{
+        font-size: 1.125rem;
+        font-family: 'Shrikhand', sans-serif;
+        margin-bottom: 10px;
+        color: $colour-white;
+    }
+    &__list {
+        margin-top: 5px;
+    }
+    &__link {
+        color: $colour-white;    
+    }
+    &__icon {
+        margin-right: 5px;
+    }
+    &__icon1 {
+        margin-right: 12px;
+    }
+}
+
+ul {
+    list-style: none;
+}
