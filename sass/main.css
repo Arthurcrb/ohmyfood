@@ -72,6 +72,7 @@ input {
   border: none;
   background: #EAEAEA;
   margin-left: 5px;
+  text-align: center;
 }
 
 .about {
@@ -193,6 +194,30 @@ input {
 .restaurant__icon {
   align-items: center;
   display: flex;
+}
+
+.txt-card {
+  position: absolute;
+  right: 2rem;
+  padding-top: 1rem;
+}
+.txt-card__new {
+  color: #008766;
+  background: #99E2D0;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+@media screen and (min-width: 1024px) {
+  .txt-card {
+    position: relative;
+    padding-top: 0;
+    right: 10px;
+    top: 10px;
+  }
+  .txt-card__new {
+    position: absolute;
+    right: 0;
+  }
 }
 
 .heart {
