@@ -129,8 +129,7 @@ input {
 .functions__title {
   margin-bottom: 20px;
 }
-
-.functions__box {
+.functions__container__box {
   display: flex;
   background: #f7f7f7;
   margin: 10px;
@@ -140,11 +139,11 @@ input {
   cursor: pointer;
   transition: all 1s;
 }
-.functions__box:hover {
-  background: #F5EDFF;
+.functions__container__box:hover {
+  background: #f5edff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
-.functions__box__step {
+.functions__container__box__step {
   position: relative;
   display: flex;
   align-items: center;
@@ -157,10 +156,29 @@ input {
   height: 25px;
   left: -15px;
 }
-.functions__box__text {
+.functions__container__box__icon {
+  color: #7E7E7E;
+}
+.functions__container__box__icon:hover {
+  color: #9356DC;
+}
+.functions__container__box__text {
   padding-left: 15px;
+  font-weight: 500;
 }
 
+@media screen and (min-width: 1024px) {
+  .functions {
+    margin: 0 200px;
+  }
+  .functions__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .functions__container__box {
+    padding: 20px 70px 20px 0;
+  }
+}
 #restaurants {
   background: #f7f7f7;
   padding: 20px;

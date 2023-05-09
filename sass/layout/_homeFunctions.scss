@@ -1,13 +1,11 @@
 .functions {
-    display: flex;
-    flex-direction: column;
-    padding: 45px 15px 25px 15px;
-    &__title {
-        margin-bottom: 20px;
-    }
-}
-
-.functions__box {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 15px 25px 15px;
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__container__box {
     display: flex;
     background: $colour-container;
     margin: 10px;
@@ -15,25 +13,46 @@
     border-radius: 20px;
     align-items: center;
     cursor: pointer;
-    transition:all 1s;
-        &:hover{
-            background: #F5EDFF;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-        }
+    transition: all 1s;
+    &:hover {
+      background: #f5edff;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    }
     &__step {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: $colour-primary;
-        border-radius: 50%;
-        color: white;
-        font-size: 12px;
-        width: 25px;
-        height: 25px;
-        left: -15px;        
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $colour-primary;
+      border-radius: 50%;
+      color: white;
+      font-size: 12px;
+      width: 25px;
+      height: 25px;
+      left: -15px;
+    }
+    &__icon {
+        color: #7E7E7E;
+        &:hover {
+            color:$colour-primary
+        }
     }
     &__text {
-        padding-left: 15px;
+      padding-left: 15px;
+      font-weight: 500;
     }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .functions {
+    margin: 0 200px;
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      &__box {
+        padding: 20px 70px 20px 0;
+      }
+    }
+  }
 }
