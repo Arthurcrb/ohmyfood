@@ -295,4 +295,24 @@ ul {
   list-style: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  .footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer ul > li {
+    margin-right: 40px;
+  }
+  .footer__logo {
+    display: flex;
+    flex-direction: row-reverse;
+    order: 1;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
