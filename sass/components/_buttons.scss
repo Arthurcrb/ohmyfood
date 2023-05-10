@@ -1,0 +1,8 @@
+//button order
+.order{
+    display: flex;
+    justify-content: center;
+    &__btn{
+        @include btn
+    }
+  }
