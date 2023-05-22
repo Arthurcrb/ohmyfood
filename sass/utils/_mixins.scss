@@ -8,7 +8,10 @@
     margin: 0 0 20px 0;
     cursor: pointer;
     box-shadow: 2px 4px 10px #bfbfbf;
+    border: none;
+    font-size: 1rem;
     transition:all 1s;
+    width: 250px;
     a{
         color: #fff;
         font-size: 1rem;
@@ -21,3 +24,4 @@
         margin: 0 auto 20px;
     }
 }
+
