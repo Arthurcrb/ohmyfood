@@ -8,4 +8,19 @@
         }
     }
 
+    .headMenu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: $colour-white;
+        height: 7rem;
+        &__arrow{
+            position: absolute;
+            left: 30px;
+        }
+    }
+
+
+
 

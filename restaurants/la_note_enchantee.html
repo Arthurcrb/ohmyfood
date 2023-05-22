@@ -5,67 +5,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/db96ba9725.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/db96ba9725.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Shrikhand&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Shrikhand&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Menu la note enchantée</title>
-  </head>
+</head>
 
 <body>
-    <header class="home">
+    <header class="headMenu">
+        <div class="headMenu__arrow">
+            <a href="../index.html"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+        </div>
         <a href="../index.html">
-          <img
-            src="../assets/images/logo/ohmyfood.png"
-            alt="logo ohmyfood"
-            class="home__logo"
-          />
+            <h1><img src="../assets/images/logo/ohmyfood.png" alt="logo ohmyfood" class="home__logo" /></h1>
         </a>
-      </header>
+    </header>
 
     <main>
-        <div class="topmenu">
-            <img src="..\assets\images\restaurants\stil-u2Lp8tXIcjw-unsplash.jpg" class="topmenu__img"
-                alt="menu la note enchantée">
+        <div class="banMenu">
+            <img src="..\assets\images\restaurants\stil-u2Lp8tXIcjw-unsplash.jpg" class="banMenu__img"
+                alt="menu ohmyfood la note enchantée">
         </div>
-        <div class="menu">
-            <div class="menu__title">
+        <div class="pageRestaurant">
+            <div class="pageRestaurant__title">
                 <h2>La note enchantée</h2>
-                <div class="restaurant__icon">
-                    <i class="like far fa-heart"></i>
+                <div class="restaurant__like">
+                    <i class="heart far fa fa-heart"></i>
                 </div>
             </div>
 
-            <div class="cardmenu">
-                <div class="cardmenu__cardtoptext">
-                    <div class="toptext__title">
-                        <h3 class="__toptext">Entrées</h3>
-                        <div class="toptext__title__line"></div>
+            <div class="menuRestaurant">
+                <div>
+                    <div class="headTitle">
+                        <h3>Entrées</h3>
+                        <div class="headTitle__line"></div>
                     </div>
-                    <div id="card1" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant1" class="description">
+                        <a href="#">
                             <h4>Ravioles de foie gras </h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Accompagnées de leur crème à la truffe</p>
-                                <span class="subtext__tarif">25€</span>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Accompagnées de leur crème à la truffe</p>
+                                <span class="descriptionMenuText__tarif">25€</span>
                             </div>
                             <div class="check">
                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
                             </div>
                         </a>
                     </div>
-                    <div id="card2" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant2" class="description">
+                        <a href="#">
                             <h4>Caviar osciètre </h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Sur blini à la farine de blé noir</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Sur blini à la farine de blé noir</p>
                                 <span class="tarif">35€</span>
                             </div>
                             <div class="check">
@@ -73,11 +67,11 @@
                             </div>
                         </a>
                     </div>
-                    <div id="card3" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant3" class="description">
+                        <a href="#">
                             <h4>Homard et espuma de potiron</h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Marinés aux zestes d'orange</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Marinés aux zestes d'orange</p>
                                 <span class="tarif">20€</span>
                             </div>
                             <div class="check">
@@ -85,11 +79,11 @@
                             </div>
                         </a>
                     </div>
-                    <div id="card4n" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant4n" class="description">
+                        <a href="#">
                             <h4>Foie gras de canard cuit entier</h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Confiture de figue et pain toasté</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Confiture de figue et pain toasté</p>
                                 <span class="tarif">35€</span>
                             </div>
                             <div class="check">
@@ -101,15 +95,15 @@
 
 
                 <div class="plats">
-                    <div class="toptext__title">
-                        <h3 class="__toptext">Plats</h3>
-                        <div class="toptext__title__line"></div>
+                    <div class="headTitle">
+                        <h3>Plats</h3>
+                        <div class="headTitle__line"></div>
                     </div>
-                    <div id="card5n" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant5n" class="description">
+                        <a href="#">
                             <h4>Noix de coquilles Saint-Jacques</h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Sur lit de purée de céleri-rave</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Sur lit de purée de céleri-rave</p>
                                 <span class="tarif">40€</span>
                             </div>
                             <div class="check">
@@ -117,11 +111,11 @@
                             </div>
                         </a>
                     </div>
-                    <div id="card6n" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant6n" class="description">
+                        <a href="#">
                             <h4>Langoustine poêlée</h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Purée de patate douce</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Purée de patate douce</p>
                                 <span class="tarif">35€</span>
                             </div>
                             <div class="check">
@@ -129,11 +123,11 @@
                             </div>
                         </a>
                     </div>
-                    <div id="card7n" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant7n" class="description">
+                        <a href="#">
                             <h4>Mijoté de queue de bœuf</h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Et riz sauvage aux zestes de citron</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Et riz sauvage aux zestes de citron</p>
                                 <span class="tarif">44€</span>
                             </div>
                             <div class="check">
@@ -144,15 +138,15 @@
                 </div>
 
                 <div class="dessert">
-                    <div class="toptext__title">
-                        <h3 class="__toptext">Desserts</h3>
-                        <div class="toptext__title__line"></div>
+                    <div class="headTitle">
+                        <h3>Desserts</h3>
+                        <div class="headTitle__line"></div>
                     </div>
-                    <div id="card8n" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant8n" class="description">
+                        <a href="#">
                             <h4>Macaron noisette et chocolat</h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Glace au caramel brun et sel de Guérande</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Glace au caramel brun et sel de Guérande</p>
                                 <span class="tarif">18€</span>
                             </div>
                             <div class="check">
@@ -160,11 +154,11 @@
                             </div>
                         </a>
                     </div>
-                    <div id="card9n" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant9n" class="description">
+                        <a href="#">
                             <h4>Baba au rhum revisité</h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Avec son coulis de citron</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Avec son coulis de citron</p>
                                 <span class="tarif">22€</span>
                             </div>
                             <div class="check">
@@ -172,11 +166,11 @@
                             </div>
                         </a>
                     </div>
-                    <div id="card10n" class="description">
-                        <a href="#" class="__card">
+                    <div id="boxRestaurant10n" class="description">
+                        <a href="#">
                             <h4>Tarte au citron meringuée </h4>
-                            <div class="subtext">
-                                <p class="subtext__top">Déstructurée</p>
+                            <div class="descriptionMenuText">
+                                <p class="descriptionMenuText__sub">Déstructurée</p>
                                 <span class="tarif">23€</span>
                             </div>
                             <div class="check">
@@ -196,33 +190,27 @@
 
     <footer class="footer">
         <div class="footer__logo">
-          <a href="../index.html" class="footer__link">ohmyfood</a>
+            <a href="../index.html" class="footer__link">ohmyfood</a>
         </div>
         <nav>
-          <ul>
-            <li class="footer__list">
-              <a class="footer__link" href="#"
-                ><i class="footer__icon footer__icon1 fas fa-utensils"></i
-                >Proposer un restaurant</a
-              >
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#"
-                ><i class="footer__icon fas fa-hands-helping"></i>Devenir
-                partenaire</a
-              >
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="#">Mentions légales</a>
-            </li>
-            <li class="footer__list">
-              <a class="footer__link" href="mailto:contact@ohmyfood.com"
-                >Contact</a
-              >
-            </li>
-          </ul>
+            <ul>
+                <li class="footer__list">
+                    <a class="footer__link" href="#"><i class="footer__icon footer__icon1 fas fa-utensils"></i>Proposer
+                        un restaurant</a>
+                </li>
+                <li class="footer__list">
+                    <a class="footer__link" href="#"><i class="footer__icon fas fa-hands-helping"></i>Devenir
+                        partenaire</a>
+                </li>
+                <li class="footer__list">
+                    <a class="footer__link" href="#">Mentions légales</a>
+                </li>
+                <li class="footer__list">
+                    <a class="footer__link" href="mailto:contact@ohmyfood.com">Contact</a>
+                </li>
+            </ul>
         </nav>
-      </footer>
+    </footer>
 </body>
 
 </html>

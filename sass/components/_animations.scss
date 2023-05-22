@@ -1,21 +1,21 @@
-//card menu
+//boxRestaurant pageRestaurant
 .description {
-    position: relative;
-    background-color: $colour-white;
-    border-radius: 15px;
-    margin: 25px 0;
-    padding: 10px;
-    cursor: pointer;
-    transition-duration: 1s;
-    box-shadow: 0px 4.01149px 15.0431px rgb(0 0 0 / 10%);
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    animation: fadeIn ease 5s forwards;
-    -webkit-animation: fadeIn ease 5s forwards;
-    -moz-animation: fadeIn ease 5s forwards;
-    -o-animation: fadeIn ease 5s forwards;
-    -ms-animation: fadeIn ease 5s forwards;
+  position: relative;
+  background-color: $colour-white;
+  box-shadow: 0px 5px 15px rgba(14, 14, 14, 0.1);
+  border-radius: 15px;
+  margin: 25px 0;
+  padding: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis; // coupe le texte avec 3... pour qu'il reste dans la boxRestaurant
+  overflow: hidden;
+  cursor: pointer;
+  transition-duration: 2s;
+  animation: fadeIn ease 4s forwards;
+  -webkit-animation: fadeIn ease 4s forwards;
+  -moz-animation: fadeIn ease 4s forwards;
+  -o-animation: fadeIn ease 4s forwards;
+  -ms-animation: fadeIn ease 4s forwards;
     &:hover {
       padding-right: 55px;
     }
@@ -26,76 +26,76 @@
     &:hover .fa-solid.fa-circle-check{
       transform: rotate(360deg) ;
     }
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colour-tertiary;
+  width: 59px;
+  height: 69px;
+  position: absolute;
+  padding: 10px;
+  right: -50px;
+  top: 0;
+  opacity: 0;
+  transition-duration: 1s;
+  & .fa-solid.fa-circle-check {
+    color: #fff;
+    transition: transform 600ms ease-in-out;
   }
-
-  .check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $colour-tertiary;
-    width: 59px;
-    height: 69px;
-    position: absolute;
-    padding: 10px;
-    right: -50px;
-    top: 0;
-    opacity: 0;
-    transition-duration: 1s;
-    & .fa-solid.fa-circle-check {
-      color: #fff;
-      transition: transform 600ms ease-in-out;
-    }
-  }
-
- 
-//card menu
-#card1{
-  animation-delay: 1.5s;
-}
-#card2{
-  animation-delay: 1.9s;
-}
-#card3{
-  animation-delay: 2.3s;
-}
-#card4{
-  animation-delay: 2.5s;
-}
-#card5{
-  animation-delay: 2.7s;
-}
-#card6{
-  animation-delay: 2.9s;
-}
-#card7{
-  animation-delay: 3.1s;
-}
-#card8{
-  animation-delay: 3.3s;
-}
-#card9{
-  animation-delay: 3.5s;
 }
 
-// card menu la note enchantée
-#card4n{
-  animation-delay: 2.5s;
+
+//boxRestaurant page Restaurant animation progressive
+#boxRestaurant1{
+animation-delay: 1.5s;
 }
-#card5n{
-  animation-delay: 2.7s;
+#boxRestaurant2{
+animation-delay: 1.9s;
 }
-#card6n{
-  animation-delay: 2.9s;
+#boxRestaurant3{
+animation-delay: 2.3s;
 }
-#card7n{
-  animation-delay: 3.1s;
+#boxRestaurant4{
+animation-delay: 2.5s;
 }
-#card8n{
-  animation-delay: 3.3s;
+#boxRestaurant5{
+animation-delay: 2.7s;
 }
-#card9n{
-  animation-delay: 3.5s;
+#boxRestaurant6{
+animation-delay: 2.9s;
 }
-#card10n{
-  animation-delay: 3.7s;
+#boxRestaurant7{
+animation-delay: 3.1s;
+}
+#boxRestaurant8{
+animation-delay: 3.3s;
+}
+#boxRestaurant9{
+animation-delay: 3.5s;
+}
+
+// boxRestaurant pageRestaurant la note enchantée
+#boxRestaurant4n{
+animation-delay: 2.5s;
+}
+#boxRestaurant5n{
+animation-delay: 2.7s;
+}
+#boxRestaurant6n{
+animation-delay: 2.9s;
+}
+#boxRestaurant7n{
+animation-delay: 3.1s;
+}
+#boxRestaurant8n{
+animation-delay: 3.3s;
+}
+#boxRestaurant9n{
+animation-delay: 3.5s;
+}
+#boxRestaurant10n{
+animation-delay: 3.7s;
 }

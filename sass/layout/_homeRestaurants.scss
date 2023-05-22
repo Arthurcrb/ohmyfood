@@ -26,7 +26,7 @@
             margin-bottom: 15px;
         }
     }
-    &__icon{
+    &__like{
         align-items: center;
         display: flex;
     }
@@ -70,6 +70,18 @@
         font-weight: bold;
         opacity: 1;
       }
+}
+
+@media screen and (min-width: $desktop) {
+    #restaurants {
+        padding: 20px 200px;
+    }
+    .restaurant__container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat (2,1fr);
+        grid-gap: 30px;
+    }
 }
 
 @media screen and (min-width: $desktop) {
