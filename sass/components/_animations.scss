@@ -14,19 +14,17 @@
   animation: loaderAnimation 3s linear forwards; 
   &__content{
     width: 250px;
-    height: 5px;
-    background: $colour-secondary $colour-secondary rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);;
-    border-radius: 50%;
     @media screen and (min-width: $desktop){
       width: 280px;
-      height: 20px;
-      line-height: 1.2;
     }
     &__text{
       color: #fff;
       font-family: 'Shrikhand';
-      font-size: 4rem;
+      font-size: 2rem;
       padding-left: 15px;
+      @media screen and (min-width: $desktop){
+        font-size: 4rem;
+      }
     }
     &__icon{
       color: #fff;
@@ -48,12 +46,16 @@
     transform: translateX(-30%) translateY(-50%);
     &:before, &:after{
       content: '';
-      padding: 16em 16em;
+      padding: 6em 6em;
       border-radius: 50px;
       position: absolute;
       left: 50%;
       border: 15px dotted $colour-primary;
       animation: 3s infinite alternate ease-in-out logoOhmyfood;
+      @media screen and (min-width: $desktop){
+        padding: 16em 16em;
+      }
+      
     }
     &:before {
       border-color: $colour-secondary $colour-secondary rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
