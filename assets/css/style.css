@@ -120,22 +120,22 @@ span {
 }
 .loader__content {
   width: 250px;
-  height: 5px;
-  background: #FF79DA #FF79DA rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-  border-radius: 50%;
 }
 @media screen and (min-width: 1024px) {
   .loader__content {
     width: 280px;
-    height: 20px;
-    line-height: 1.2;
   }
 }
 .loader__content__text {
   color: #fff;
   font-family: "Shrikhand";
-  font-size: 4rem;
+  font-size: 2rem;
   padding-left: 15px;
+}
+@media screen and (min-width: 1024px) {
+  .loader__content__text {
+    font-size: 4rem;
+  }
 }
 .loader__content__icon {
   color: #fff;
@@ -156,12 +156,17 @@ a.loader__content__link {
 }
 a.loader__content__link:before, a.loader__content__link:after {
   content: "";
-  padding: 16em 16em;
+  padding: 6em 6em;
   border-radius: 50px;
   position: absolute;
   left: 50%;
   border: 15px dotted #9356DC;
   animation: 3s infinite alternate ease-in-out logoOhmyfood;
+}
+@media screen and (min-width: 1024px) {
+  a.loader__content__link:before, a.loader__content__link:after {
+    padding: 16em 16em;
+  }
 }
 a.loader__content__link:before {
   border-color: #FF79DA #FF79DA rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
@@ -328,7 +333,7 @@ a.loader__content__link:after {
 }
 .home__logo {
   width: 250px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .headMenu {
